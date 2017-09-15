@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document by Partha Pratim Sinha. DO NOT COPY */
+
+#topbar{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff4f4+0,ffa8a8+100 */
+background: rgb(255,244,244); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,244,244,1) 0%, rgba(255,168,168,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,244,244,1) 0%,rgba(255,168,168,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,244,244,1) 0%,rgba(255,168,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4f4', endColorstr='#ffa8a8',GradientType=1 ); /* IE6-9 */
+color:#ef3837;
+padding:10px 0px 10px 0px;
+border-bottom:#FF8080 1px solid;
+font-size:18px;}
+
+#footbar{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,cc6363+100 */
+background: rgb(204,0,0); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(204,0,0,1) 0%, rgba(204,99,99,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(204,0,0,1) 0%,rgba(204,99,99,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(204,0,0,1) 0%,rgba(204,99,99,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc6363',GradientType=1 ); /* IE6-9 */
+color:#EBEBEB;
+padding:10px 0px;
+font-family: 'Hind Siliguri', sans-serif; 
+border-top:#D50000 1px solid;
+font-size:14px;}
+
+#logobar {
+padding:0px 0px 0px 0px;
+}
+
+#dashboardbody{
+padding-top:0px;
+padding-bottom:220px;}
+
+#mainbody{
+padding-top:20px;
+padding-bottom:35px;}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #0080C0;
+}
+
+
+.bodyheading{
+color:#0080C0;
+font-size:18px;
+font-weight:600;
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Crimson Text', serif;}
+
+
+#listviews{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#fff;
+border-top:#ccc 1px solid;
+width:100%;
+}
+
+hr.style3 {
+	border-top: 1px dashed #0099FF;
+}
+
+/* For scrollbar-------------------------------------- */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 6px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/* For scrollbar-------------------------------------- */
+
+
+
+/* For Navbar-------------------------------------- */
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #428bca;
+border-radius:0px;
+}
+
+
+.margintop20 {
+    margin-top:20px;
+}
+
+.nav-pills>li>a {
+border-radius: 0px;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+color: #000;
+text-decoration: none;
+}
+
+
+.nav-stacked>li+li {
+margin-top: 0px;
+margin-left: 0;
+border-bottom:1px solid #dadada;
+border-left:1px solid #dadada;
+border-right:1px solid #dadada;
+}
+
+.active2 {
+    border-right:4px solid #428bca;
+}
+
+/* For Navbar-------------------------------------- */
+
+
+
+
+/* For Slider---------------------------------------- */
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+	  height:420px !important;
+	  padding:0px !important;
+  }
+/* For Slider---------------------------------------- */
+
+
+/* For Gallery-------------------------------------------------------------------------------------------------------------- */
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+/* For Gallery--------------------------------------------------------------------------------------------------------------- */
+
+/* sidebar menu */
+
+#main-menu {
+    background-color: #2E3039;
+}
+
+.list-group-item {
+    background-color: #2E3039;
+    border: none;
+}
+
+a.list-group-item {
+    color: #FFF;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+    background-color: #43D5B1;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    color: #FFF;
+    background-color: #43D5B1;
+    border: none;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-radius: 0;
+}
+
+.list-group-level1 .list-group-item {
+    padding-left:30px;
+}
+
+.list-group-level2 .list-group-item {
+    padding-left:60px;
+}
+
+
+/* sidebar menu */
+
+@media (min-width: 320px) and (max-width: 800px) {
+
+.spacing{
+margin-bottom:10px;
+text-align:center !important;}
+
+
+
+}
+
+
+
+ 
